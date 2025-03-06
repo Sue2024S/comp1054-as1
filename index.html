@@ -9,19 +9,21 @@
 </head>
 <body>
     <header>
-        <h1>Kuti Tika</h1>
-        <p>Song by Renata Flores</p>
-        <nav>
+        <div>
+            <h1>Kuti Tika</h1>
+            <p>Song by Renata Flores</p>
+        </div> 
+       <nav>
             <ul>
-                <li><a href="#">Lyrics</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Artist</a></li>
+                <li><a href="#lyrics">Lyrics</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#artist">Artist</a></li>
             </ul>
         </nav>
     </header>
     <main>
        <section>
-            <h2>Lyrics</h2>
+            <h2 id="lyrics">Lyrics</h2>
             <p>Uyarinakunanchikpaq</p>
             <p>P'akisqa rapraykuna qhaliyapurqan</p>
             <p>Ñawpa taytaykunapa waqayninmi chay</p>
@@ -50,26 +52,44 @@
        <aside>
             <nav>
                 <h2>Listen</h2>
+                <img>
                 <ul>
-                    <li><a href="#">Spotify</a></li>
-                    <li><a href="#">Youtube</a></li>
-                    <li><a href="#">Apple Music</a></li>
+                    <li>
+                        <img src="images/spotify.png" alt="Spotify Icon">
+                        <a href="https://open.spotify.com/album/30J1mOHKurYKyOpXdLOCAb?si=5hth6WwPQaa3GTvqYX5x3Q">Spotify</a>
+                        <!-- icon reference <a href="https://www.flaticon.com/free-icons/spotify-sketch" title="spotify sketch icons">Spotify sketch icons created by Fathema Khanom - Flaticon</a> -->
+                    </li>
+                    
+                    <li>
+                        <img src="images/youtube.png" alt="Youtube Icon">
+                        <a href="https://www.youtube.com/watch?v=lc3GJG7Z0IA">Youtube</a>
+                        <!-- icon reference <a href="https://www.flaticon.com/free-icons/youtube" title="youtube icons">Youtube icons created by Md Tanvirul Haque - Flaticon</a> -->
+                    </li>
+                    
+                    <li>
+                        <img src="images/applemusic.png" alt="AppleMusic Icon">
+                        <a href="https://music.apple.com/us/song/kutitika/1773443897">Apple Music</a>
+                        <!-- icon reference <a href="https://www.flaticon.com/free-icons/itunes" title="itunes icons">Itunes icons created by IconBaandar - Flaticon</a> -->
+                    </li>
+                    
                 </ul>
             </nav>
-            <h2>About</h2>
+            
+            <h2 id="about">About</h2>
             <p><strong>Released:</strong>2024</p>
             <p><strong>Artist:</strong> Renata Flores</p>
             <p><strong>Genre:</strong> Andean Pop</p>
             <blockquote>
                 <h3>Why is this song meaningful to me?</h3>
+            <!-- meaning of the song for the author: https://www.youtube.com/watch?v=r_BswL4dX04 -->
             </blockquote>
-            <h2>Artist</h2>
-            <p>Renata Flores</p>
+            <h2 id="artist">Artist</h2>
+            <p>Renata Flores is Peruvian singer...</p>
             <!-- in css ad triangle and image to point to Renata's img -->
        </aside>
     </main>
     <footer>
-        <p><small>© 2025 The CSS Rockstar | By Susan Soto</small></p>
+        <p><small>© 2025 The CSS Rockstar | By Susan Soto | </small></p>
     </footer>
 </body>
 </html>
