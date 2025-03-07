@@ -135,15 +135,21 @@ main section p:last-child {
 
 span {
     font-weight: bold;
-    color : #ff0000;
+    color : #efec44;
 }
 
 section {
     padding-bottom: 120px;
 }
 
+h2 {
+    font-size: 2rem;
+    color: rgb(18, 78, 28);
+}
 /* local navigation */
+    
 aside ul {
+    margin-top: 10px;
     display: flex; 
     padding: 0;
     gap: 20px;
@@ -153,10 +159,26 @@ aside li {
     text-align: center; 
 }
 
+aside nav ul li:first-child a:hover {
+    color: rgb(38, 162, 24);
+}
+
+aside nav ul li:nth-child(2) a:hover {
+    color: rgb(162, 24, 24);
+}
+
+aside nav ul li:last-child a:hover {
+    color: rgb(223, 40, 125);
+}
+
 aside img {
     width: 50px;
     display: block; 
     margin: 0 auto;
+}
+
+aside nav ul li img:hover {
+    filter: blur(2px); 
 }
 
 nav li:last-child img{
@@ -164,7 +186,12 @@ nav li:last-child img{
     margin-top: -10px;
 }
 
-/* footer */
+aside p:last-of-type + img {
+    width: 80px;
+    height: 100px;
+}
+
+/* FOOTER */
 footer {
     width: 100%;
     text-align: center;
