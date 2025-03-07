@@ -135,7 +135,7 @@ main section p:last-child {
 
 span {
     font-weight: bold;
-    color : #073201;
+    color : rgb(18, 78, 28);
 }
 
 section {
@@ -144,7 +144,7 @@ section {
 
 h2 {
     font-size: 2rem;
-    color: rgb(18, 78, 28);
+    color: rgb(181, 45, 111);
 }
 
 /* local navigation */
