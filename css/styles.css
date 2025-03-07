@@ -73,6 +73,7 @@ header {
     text-shadow: 2px 2px 10px rgba(35, 34, 34, 0.952);
     position: relative;
     background-color: hwb(212 4% 35% / 0.48);
+    background: linear-gradient(rgb(29, 168, 233), rgb(2, 70, 102));
     padding: 1% 20%;
     color: white;
 }
