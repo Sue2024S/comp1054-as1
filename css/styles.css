@@ -21,12 +21,14 @@ body {
     background-image: 
         /* url("../images/background-sky.jpg"), */
         url("../images/background-ground.png"),
-        url("../images/background-flower.png");
+        url("../images/background-flower.png"),
+        url("../images/background-sky.jpg");
     
     background-position: 
         /* center center, */
-        bottom, 
-        right 60%;
+        bottom -10px center, 
+        right 85%,
+        bottom 50% center;
     
     background-repeat: 
         no-repeat,
@@ -34,9 +36,9 @@ body {
         no-repeat;
     
     background-size: 
-        cover,
-        100% auto,
-        auto; 
+        100% 50%,
+        50% auto,
+        cover; 
 
 } 
 
